@@ -1,0 +1,102 @@
+Email Address,Email Invalid?,Email Status,Mobile,Mobile Invalid?,SMS Status,Added Date/Time,Device type,Device OS,Device browser,firstname,lastname,color,sport
+anyperson1@pure360.co.uk,N,opted in,07791 000001,N,opted in,01/05/2012 12:00,desktopBrowser,Windows 7,Thunderbird 1,any1,person1,red,football
+anyperson2@pure360.co.uk,N,opted in,07791 000002,N,opted in,02/05/2012 12:00,desktopClient,Windows NT,Lotus Notes 6,any2,person2,green,cricket
+anyperson3@pure360.co.uk,N,opted in,07791 000003,N,opted in,03/05/2012 12:00,smartphone,Windows,IE Mobile,any3,person3,"green,blue",football
+anyperson4@pure360.co.uk,N,opted in,07791 000004,N,opted in,04/05/2012 12:00,tablet,Apple,iPad,any4,person4,blue,rugby
+anyperson5@pure360.co.uk,N,opted in,07791 000005,N,opted in,05/05/2012 12:00,desktopBrowser,Windows 7,Thunderbird 1,any5,person5,blue,cricket
+anyperson6@pure360.co.uk,N,opted in,07791 000006,N,opted in,06/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any6,person6,"blue,red",rugby
+anyperson7@pure360.co.uk,N,opted in,07791 000007,N,opted in,07/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any7,person7,green,"football,cricket"
+anyperson8@pure360.co.uk,N,opted in,07791 000008,N,opted in,08/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any8,person8,green,cricket
+anyperson9@pure360.co.uk,N,opted in,07791 000009,N,opted in,09/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any9,person9,red,"cricket,rugby"
+anyperson10@pure360.co.uk,N,opted in,07791 000010,N,opted in,10/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any10,person10,"green,blue",football
+anyperson11@pure360.co.uk,N,opted in,07791 000011,N,opted in,11/05/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any11,person11,blue,football
+anyperson12@pure360.co.uk,N,opted out,07791 000012,N,opted in,12/05/2012 12:00,desktopBrowser,Windows 7,Thunderbird 1,any12,person12,blue,"cricket,football"
+anyperson13@pure360.co.uk,N,opted in,07791 000013,N,opted in,12/06/2012 12:00,desktopBrowser,Mac OS X,Firefox,any13,person13,red,"rugby,football"
+anyperson14@pure360.co.uk,N,opted in,07791 000014,N,opted in,13/06/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any14,person14,"green,blue",rugby
+anyperson15@pure360.co.uk,N,opted in,07791 000015,N,opted in,30/06/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any15,person15,blue,football
+anyperson16@pure360.co.uk,N,opted in,07791 000016,N,opted in,01/07/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any16,person16,"blue,red",cricket
+anyperson17@pure360.co.uk,N,opted in,07791 000017,N,opted in,02/07/2012 12:00,tablet,Apple,iPad,any17,person17,green,football
+anyperson18@pure360.co.uk,N,opted in,07791 000018,N,opted in,03/07/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any18,person18,green,rugby
+anyperson19@pure360.co.uk,N,opted in,07791 000019,N,opted in,04/07/2012 12:00,desktopBrowser,Windows 7,Thunderbird 1,any19,person19,"blue,green",cricket
+anyperson20@pure360.co.uk,N,opted in,07791 000020,N,opted in,05/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any20,person20,green,rugby
+anyperson21@pure360.co.uk,N,opted in,07791 000021,N,opted in,06/07/2012 12:00,smartphone,Android,Android Webkit,any21,person21,green,"football,cricket"
+anyperson22@pure360.co.uk,N,opted in,07791 000022,N,opted in,07/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any22,person22,"blue,green",cricket
+anyperson23@pure360.co.uk,N,opted in,07791 000023,N,opted in,04/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any23,person23,"red,green","cricket,rugby"
+anyperson24@pure360.co.uk,N,opted out,07791 000024,N,opted in,05/05/2012 12:00,desktopBrowser,Mac OS X,Firefox,any24,person24,blue,football
+anyperson25@pure360.co.uk,N,opted in,07791 000025,N,opted in,06/05/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any25,person25,"blue,red",football
+anyperson26@pure360.co.uk,N,opted in,07791 000026,N,opted in,07/05/2012 12:00,smartphone,Android,Android Webkit,any26,person26,green,"cricket,football"
+anyperson27@pure360.co.uk,N,opted in,07791 000027,N,opted in,08/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any27,person27,green,"rugby,football"
+anyperson28@pure360.co.uk,Y,,07791 000028,Y,,09/05/2012 12:00,smartphone,iPhone OS,Safari,any28,person28,"blue,green",rugby
+anyperson29@pure360.co.uk,N,opted in,07791 000029,N,opted in,10/05/2012 12:00,smartphone,iPhone OS,Safari,any29,person29,"red,green",football
+anyperson30@pure360.co.uk,N,opted in,07791 000030,N,opted in,11/05/2012 12:00,smartphone,Android,Android Webkit,any30,person30,"red,green",cricket
+anyperson31@pure360.co.uk,N,opted in,07791 000031,N,opted in,12/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any31,person31,red,football
+anyperson32@pure360.co.uk,N,opted in,07791 000032,N,opted in,13/05/2012 12:00,smartphone,iPhone OS,Safari,any32,person32,green,rugby
+anyperson33@pure360.co.uk,N,opted in,07791 000033,N,opted in,14/05/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any33,person33,"green,blue",cricket
+anyperson34@pure360.co.uk,N,opted in,07791 000034,N,opted in,15/05/2012 12:00,smartphone,Android,Android Webkit,any34,person34,blue,rugby
+anyperson35@pure360.co.uk,N,opted in,07791 000035,N,opted in,16/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any35,person35,blue,rugby
+anyperson36@pure360.co.uk,N,opted in,07791 000036,N,opted in,17/05/2012 12:00,smartphone,Android,Android Webkit,any36,person36,"blue,red",football
+anyperson37@pure360.co.uk,N,opted in,07791 000037,N,opted in,18/05/2012 12:00,smartphone,iPhone OS,Safari,any37,person37,green,cricket
+anyperson38@pure360.co.uk,N,opted in,07791 000038,N,opted in,19/05/2012 12:00,desktopBrowser,Windows Vista,Outlook 2010,any38,person38,"green,blue",football
+anyperson39@pure360.co.uk,N,opted in,07791 000039,N,opted in,08/06/2012 12:00,desktopBrowser,Mac OS X,Thunderbird 1,any39,person39,blue,rugby
+anyperson40@pure360.co.uk,N,opted in,07791 000040,N,opted in,09/06/2012 12:00,smartphone,Android,Android Webkit,any40,person40,blue,cricket
+anyperson41@pure360.co.uk,N,opted in,07791 000041,N,opted in,10/06/2012 12:00,smartphone,Android,Android Webkit,any41,person41,red,rugby
+anyperson42@pure360.co.uk,N,opted in,07791 000042,N,opted in,11/06/2012 12:00,desktopBrowser,Windows 7,Thunderbird 2,any42,person42,"green,blue","football,cricket"
+anyperson43@pure360.co.uk,N,opted in,07791 000043,N,opted in,12/06/2012 12:00,desktopBrowser,Windows 8,Thunderbird 9,any43,person43,blue,cricket
+anyperson44@pure360.co.uk,N,opted in,07791 000044,N,opted in,13/06/2012 12:00,desktopBrowser,Windows 2003 Server,Thunderbird 7,any44,person44,"blue,red","cricket,rugby"
+anyperson45@pure360.co.uk,N,opted in,07791 000045,N,opted in,10/05/2012 12:00,smartphone,Android,Android Webkit,any45,person45,green,football
+anyperson46@pure360.co.uk,Y,,07791 000046,Y,,11/05/2012 12:00,smartphone,Android,Android Webkit,any46,person46,green,football
+anyperson47@pure360.co.uk,N,opted in,07791 000047,N,opted in,12/05/2012 12:00,smartphone,iPhone OS,Safari,any47,person47,"blue,green","cricket,football"
+anyperson48@pure360.co.uk,N,opted in,07791 000048,N,opted in,13/05/2012 12:00,smartphone,Android,Android Webkit,any48,person48,green,"rugby,football"
+anyperson49@pure360.co.uk,N,opted in,07791 000049,N,opted in,14/05/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any49,person49,green,rugby
+anyperson50@pure360.co.uk,N,opted in,07791 000050,N,opted in,15/05/2012 12:00,desktopBrowser,Windows XP,Lotus Notes 6,any50,person50,"blue,green",football
+anyperson51@pure360.co.uk,N,opted in,07791 000051,N,opted in,16/05/2012 12:00,tablet,Apple,iPad,any51,person51,"red,green",cricket
+anyperson52@pure360.co.uk,N,opted in,07791 000052,N,opted in,17/05/2012 12:00,smartphone,Android,Android Webkit,any52,person52,red,football
+anyperson53@pure360.co.uk,N,opted in,07791 000053,N,opted in,18/05/2012 12:00,smartphone,Android,Android Webkit,any53,person53,green,rugby
+anyperson54@pure360.co.uk,N,opted in,07791 000054,N,opted in,19/05/2012 12:00,smartphone,iPhone OS,Safari,any54,person54,"green,blue",cricket
+anyperson55@pure360.co.uk,N,opted in,07791 000055,N,opted in,08/06/2012 12:00,desktopBrowser,Mac OS X,Firefox,any55,person55,blue,rugby
+anyperson56@pure360.co.uk,N,opted in,07791 000056,N,opted in,09/06/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any56,person56,blue,"football,cricket"
+anyperson57@pure360.co.uk,N,opted in,07791 000057,N,opted in,10/06/2012 12:00,desktopBrowser,Mac OS X,Firefox,any57,person57,"blue,red",cricket
+anyperson58@pure360.co.uk,N,opted in,07791 000058,N,opted in,11/06/2012 12:00,smartphone,iPhone OS,Safari,any58,person58,green,cricket
+anyperson59@pure360.co.uk,N,opted in,07791 000059,N,opted in,12/06/2012 12:00,smartphone,iPhone OS,Safari,any59,person59,green,"cricket,rugby"
+anyperson60@pure360.co.uk,N,opted out,07791 000060,N,opted in,13/06/2012 12:00,smartphone,Windows,IE Mobile,any60,person60,"blue,green",football
+anyperson61@pure360.co.uk,N,opted in,07791 000061,N,opted in,30/06/2012 12:00,smartphone,iPhone OS,Safari,any61,person61,"red,green",football
+anyperson62@pure360.co.uk,N,opted in,07791 000062,N,opted in,01/07/2012 12:00,smartphone,iPhone OS,Safari,any62,person62,blue,"cricket,football"
+anyperson63@pure360.co.uk,N,opted in,07791 000063,N,opted in,02/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any63,person63,"blue,red","rugby,football"
+anyperson64@pure360.co.uk,N,opted in,07791 000064,N,opted in,03/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any64,person64,green,rugby
+anyperson65@pure360.co.uk,N,opted in,07791 000065,N,opted in,04/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any65,person65,green,football
+anyperson66@pure360.co.uk,N,opted in,07791 000066,N,opted in,05/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any66,person66,"blue,green",cricket
+anyperson67@pure360.co.uk,N,opted in,07791 000067,N,opted in,12/06/2012 12:00,smartphone,iPhone OS,Safari,any67,person67,"red,green",football
+anyperson68@pure360.co.uk,N,opted in,07791 000068,N,opted in,13/06/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any68,person68,red,rugby
+anyperson69@pure360.co.uk,N,opted in,07791 000069,N,opted in,30/06/2012 12:00,desktopBrowser,Windows XP,Lotus Notes 6,any69,person69,green,cricket
+anyperson70@pure360.co.uk,N,opted in,07791 000070,N,opted in,01/07/2012 12:00,tablet,Apple,iPad,any70,person70,blue,rugby
+anyperson71@pure360.co.uk,N,opted in,07791 000071,N,opted in,02/07/2012 12:00,desktopBrowser,Windows NT,Outlook 2007,any71,person71,green,rugby
+anyperson72@pure360.co.uk,N,opted in,07791 000072,N,opted in,03/07/2012 12:00,desktopBrowser,Windows 7,Lotus Notes 6,any72,person72,red,football
+anyperson73@pure360.co.uk,N,opted in,07791 000073,N,opted in,04/07/2012 12:00,desktopBrowser,Windows NT,Lotus Notes 6,any73,person73,red,cricket
+anyperson74@pure360.co.uk,N,opted in,07791 000074,N,opted in,06/08/2012 12:00,smartphone,iPhone OS,Safari,any74,person74,"green,blue",football
+anyperson75@pure360.co.uk,N,opted in,07791 000075,N,opted in,07/08/2012 12:00,smartphone,Android,Android Webkit,any75,person75,green,rugby
+anyperson76@pure360.co.uk,N,opted in,07791 000076,N,opted in,08/08/2012 12:00,smartphone,Android,Android Webkit,any76,person76,blue,cricket
+anyperson77@pure360.co.uk,N,opted in,07791 000077,N,opted in,09/05/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any77,person77,red,rugby
+anyperson78@pure360.co.uk,N,opted in,07791 000078,N,opted in,10/05/2012 12:00,smartphone,iPhone OS,Safari,any78,person78,"green,blue","football,cricket"
+anyperson79@pure360.co.uk,N,opted in,07791 000079,N,opted in,11/05/2012 12:00,smartphone,iPhone OS,Safari,any79,person79,blue,cricket
+anyperson80@pure360.co.uk,N,opted in,07791 000080,N,opted in,05/07/2012 12:00,smartphone,iPhone OS,Safari,any80,person80,blue,"cricket,rugby"
+anyperson81@pure360.co.uk,N,opted in,07791 000081,N,opted in,06/07/2012 12:00,smartphone,Android,Android Webkit,any81,person81,red,football
+anyperson82@pure360.co.uk,N,opted in,07791 000082,N,opted in,07/07/2012 12:00,smartphone,Android,Android Webkit,any82,person82,"green,blue",football
+anyperson83@pure360.co.uk,N,opted in,07791 000083,N,opted in,08/07/2012 12:00,smartphone,iPhone OS,Safari,any83,person83,blue,"cricket,football"
+anyperson84@pure360.co.uk,N,opted out,07791 000084,N,opted in,16/05/2012 12:00,smartphone,RIM OS,BlackBerry,any84,person84,"blue,red","rugby,football"
+anyperson85@pure360.co.uk,N,opted in,07791 000085,N,opted in,17/05/2012 12:00,smartphone,iPhone OS,Safari,any85,person85,green,rugby
+anyperson86@pure360.co.uk,N,opted in,07791 000086,N,opted in,18/05/2012 12:00,desktopBrowser,Windows XP,Outlook 2010,any86,person86,green,football
+anyperson87@pure360.co.uk,N,opted in,07791 000087,N,opted in,19/05/2012 12:00,tablet,Apple,iPad,any87,person87,"blue,green",cricket
+anyperson88@pure360.co.uk,N,opted in,07791 000088,N,opted in,27/07/2012 12:00,smartphone,Symbian OS,Nokia BrowserNG,any88,person88,"red,green",football
+anyperson89@pure360.co.uk,N,opted in,07791 000089,N,opted in,28/07/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any89,person89,red,rugby
+anyperson90@pure360.co.uk,N,opted in,07791 000090,N,opted in,12/05/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any90,person90,green,rugby
+anyperson91@pure360.co.uk,N,opted in,07791 000091,N,opted in,12/06/2012 12:00,smartphone,RIM OS,BlackBerry,any91,person91,"green,blue","football,cricket"
+anyperson92@pure360.co.uk,N,opted in,07791 000092,N,opted in,13/06/2012 12:00,desktopBrowser,Windows XP,Outlook 2010,any92,person92,blue,cricket
+anyperson93@pure360.co.uk,N,opted in,07791 000093,N,opted in,30/06/2012 12:00,desktopBrowser,Windows NT,Outlook 2010,any93,person93,blue,cricket
+anyperson94@pure360.co.uk,N,opted in,07791 000094,N,opted in,01/07/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any94,person94,"blue,red","cricket,rugby"
+anyperson95@pure360.co.uk,N,opted in,07791 000095,N,opted in,01/07/2012 12:00,smartphone,Symbian OS,Nokia BrowserNG,any95,person95,green,football
+anyperson96@pure360.co.uk,N,opted in,07791 000096,N,opted in,02/07/2012 12:00,desktopBrowser,Windows 7,Outlook 2010,any96,person96,green,football
+anyperson97@pure360.co.uk,N,opted in,07791 000097,N,opted in,03/07/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any97,person97,"blue,green","cricket,football"
+anyperson98@pure360.co.uk,N,opted in,07791 000098,N,opted in,04/07/2012 12:00,smartphone,Android,Android Webkit,any98,person98,"red,green","rugby,football"
+anyperson99@pure360.co.uk,N,opted in,07791 000099,N,opted in,06/08/2012 12:00,smartphone,Android,Android Webkit,any99,person99,blue,rugby
+anyperson100@pure360.co.uk,N,opted out,07791 000100,N,opted in,07/08/2012 12:00,desktopBrowser,Windows 7,Windows Live Mail,any100,person100,"blue,red",football
+anyperson101@pure360.co.uk,N,opted in,07791 000101,N,opted in,08/08/2012 12:00,smartphone,Symbian OS,Nokia BrowserNG,any101,person101,green,cricket
