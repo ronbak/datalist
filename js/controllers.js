@@ -2,7 +2,7 @@
 
   var app = angular.module('test');
 
-  app.controller('testCtrl', ['$scope', 'testFactory', '$location', function($scope, testFactory, $location) {
+  app.controller('listCtrl', ['$scope', 'testFactory', '$location', function($scope, testFactory, $location) {
 
     testFactory.getContact().then(function(data) {
          $scope.contacts = data;
@@ -16,7 +16,7 @@
 
   app.controller('userCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
 
-      $scope.user = $scope.contacts[$routeParams.firstname];
+      $scope.user = $routeParams;
   }]);
 
 }());
