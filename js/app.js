@@ -7,11 +7,11 @@
 
     $routeProvider
         .when("/", {
-          templateUrl: "main.html",
+          templateUrl: "partials/main.html",
           controller: "testCtrl"
         })
         .when("/edit/:firstname", {
-          templateUrl: "contact.html",
+          templateUrl: "partials/contact.html",
           controller: "testCtrl"
         })
         .otherwise({redirectTo:"/"});
