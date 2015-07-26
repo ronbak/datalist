@@ -1,15 +1,27 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="test">
   <head>
+    <base href='/'>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
   </head>
   <body>
-    <div>
-      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <hr>
-      <h1>Hello {{yourName}}!</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>My Contact List</h1>
+
+          <div ng-view></div>
+
+        </div>
+      </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.1/papaparse.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/services.js" charset="utf-8"></script>
+    <script src="js/controllers.js" charset="utf-8"></script>
   </body>
 </html>

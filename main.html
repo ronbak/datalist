@@ -1,0 +1,12 @@
+<table class="table table-bordered">
+  <thead>
+    <th>Firstname <input type="search" class="pull-right"></th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="contact in contacts">
+      <td>
+        <a href="" ng-click='edit(contact.firstname)'>{{ contact.firstname }}</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
