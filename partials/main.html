@@ -5,7 +5,7 @@
   <tbody>
     <tr ng-repeat="contact in contacts">
       <td>
-        <a href="" ng-click='edit(contact.firstname)'>{{ contact.firstname }}</a>
+        <a ng-href="/edit/{{ contact.firstname }}">{{ contact.firstname }}</a>
       </td>
     </tr>
   </tbody>

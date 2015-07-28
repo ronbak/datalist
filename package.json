@@ -9,8 +9,9 @@
   },
   "dependencies": {
     "angular": "~1.4.2",
+    "bootstrap": "~3.3.5",
     "express": "~4.13.1",
-    "bootstrap": "~3.3.5"
+    "papaparse": "^4.1.1"
   },
   "repository": {
     "type": "git",

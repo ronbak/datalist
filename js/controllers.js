@@ -8,15 +8,13 @@
          $scope.contacts = data;
      });
 
-     $scope.edit = function(firstname) {
-       $location.path('edit/' + firstname);
-     };
-
   }]);
 
-  app.controller('userCtrl', ['$scope', '$routeParams', function($scope, $routeParams) {
-
-      $scope.user = $routeParams;
+  app.controller('userCtrl', ['$scope', '$routeParams', function($scope, $routeParams, users) {
+    // users.byFirstName($routeParam.firstname)
+    //   .then(function(result) {
+    //     $scope.user = result;
+    //   });
   }]);
 
 }());
