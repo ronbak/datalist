@@ -1,16 +1,37 @@
 var path = require('path');
 var express = require('express');
-var papaparse = require('papaparse');
+var Papa = require('papaparse');
 var app = express();
 
-// Require paparase
+var port = process.env.PORT || 3000;
+
+var contactRouter = express.Router();
 
 /**
  * GET /contacts
  */
 
 // 1. Declare a GET route
+contactRouter.route('/contacts')
+  .get(function(req, res){
+    var responseJson = parser;
+
+    res.send(responseJson);
+    console.log(responseJson);
+  });
+
 // 2. Read the CSV file
+var data = 'my-list.csv';
+
+var parser = Papa.parse(data, {
+    header: true,
+    delimiter: ",",
+    complete: function(results) {
+       console.log(results.data);
+    }
+});
+
+
 // 3. Parse the CSV and convert to JSON
 // 4. Return the JSON response of that parsed CSV
 
@@ -25,8 +46,13 @@ var app = express();
 // 5. Return JSON
 // 6. If :firstname was not found in the CSV, return 404
 
-app.use(express.static(path.resolve(__dirname)));
 
-app.listen(3000, function() {
+app.use('/', contactRouter);
+
+app.get('/', function(req, res){
+  res.send('Welcome to my API');
+});
+
+app.listen(port, function() {
   console.log('listening');
 });
