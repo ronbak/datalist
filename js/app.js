@@ -12,10 +12,9 @@
         })
         .when("/edit/:firstname", {
           templateUrl: "partials/contact.html",
-          controller: "userCtrl"
+          controller: "listCtrl"
         })
         .otherwise({redirectTo:"/"});
 
   });
-
 }());
