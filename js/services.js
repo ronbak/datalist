@@ -2,14 +2,11 @@
 
   var app = angular.module('test');
 
-  app.service('contacts', function() {
+  app.service('contacts', function($scope, $http) {
     this.data = null;
 
-    this.all = function() {
-      // 1. Check if we already have some data on this service
-      // 2. If we have, return it
-      // 3. If we don't have, make an HTTP request for all contacts
-      // 4. Once fetched, you want to store in this.data
+    this.all = function($resource) {
+      return $resource("/contacts");
     };
 
     this.byFirstName = function(firstName) {
@@ -25,19 +22,8 @@
 
   app.factory('testFactory', ['$http', '$q', function($http, $q) {
 
-    var url = 'my-list.csv';
-
     var getContact = function() {
 
-        var parsePromise = $q.defer();
-        $http.get(url).success(function(data) {
-            Papa.parse(data, {
-                header: true,
-                complete: function(results) {
-                    parsePromise.resolve(results.data);
-                }
-            });
-        });
         return parsePromise.promise;
       };
 

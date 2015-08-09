@@ -6,12 +6,12 @@
     $locationProvider.html5Mode(true);
 
     $routeProvider
-        .when("/", {
+        .when("/contacts", {
           templateUrl: "partials/main.html",
           controller: "listCtrl"
         })
         .when("/edit/:firstname", {
-          templateUrl: "partials/contact.html",
+          templateUrl: "contact.html",
           controller: "listCtrl"
         })
         .otherwise({redirectTo:"/"});

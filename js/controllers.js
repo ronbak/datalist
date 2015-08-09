@@ -2,10 +2,11 @@
 
   var app = angular.module('test');
 
-  app.controller('listCtrl', ['$scope', 'testFactory', '$location', function($scope, testFactory, $location) {
+  app.controller('listCtrl', ['$scope', 'contacts', '$location', function($scope, contacts, $location) {
 
-    testFactory.getContact().then(function(data) {
+    this.all().then(function(data) {
          $scope.contacts = data;
+         console.log(data);
      });
 
   }]);

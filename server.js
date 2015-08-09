@@ -24,39 +24,48 @@ contactRouter.route('/contacts')
     });
   });
 
+/**
+* GET /contacts/:firstname
+*/
+
+// 1. Declare a GET route with a param of :firstname
 contactRouter.route('/contacts/:firstname')
   .get(function(req, res) {
-
+    // Read the CSV file
     var users = fs.readFileSync('my-list.csv');
-
+    // Parse the CSV and convert to JSON
     var user = Papa.parse(users.toString(), {
      header: true,
      delimiter: ",",
-     complete: function(results) {
-      var findUserByname = function (firstname, callback) {
-        if (!results.data[firstname])
-          return callback(new Error(
-            'No user matching '
-             + firstname
-            )
-          );
+     complete: function(singleContact) {
+       //gets the item from the array of objects
+       var getUser = function (myArray, prop, value) {
+         var i = myArray.length;
+         while (i--) {
+          if (myArray[i][prop] == value) {
+              return myArray[i];
+          }
+        }
       };
 
-      res.send(results.data);
-     }
-    });
+      //Retreiving the data from papaparse
+      var users = singleContact.data;
+
+      //Using the get funtcion to get the user by firstname
+      var user = getUser(users,'firstname', req.params.firstname);
+
+      console.log(user);
+
+      if(user != null) {
+        res.send(user);
+      }
+      else {
+        //Return 404
+        res.status(404).send('Not found');
+      }
+    }
+  });
 });
-
-/**
- * GET /contacts/:firstname
- */
-
-// 1. Declare a GET route with a param of :firstname
-// 2. Read the CSV file
-// 3. Parse the CSV and convert to JSON
-// 4. Find the record for that particular :firstname
-// 5. Return JSON
-// 6. If :firstname was not found in the CSV, return 404
 
 
 app.use('/', contactRouter);
