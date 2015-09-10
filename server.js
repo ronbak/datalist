@@ -67,12 +67,10 @@ contactRouter.route('/contacts/:firstname')
   });
 });
 
+app.use('/', express.static(__dirname + '/'));
 
 app.use('/', contactRouter);
 
-app.get('/', function(req, res){
-  res.send('Welcome to my API');
-});
 
 app.listen(port, function() {
   console.log('listening');
