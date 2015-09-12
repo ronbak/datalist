@@ -5,6 +5,14 @@
   app.controller('contactsCtrl',
     function($scope, $routeParams, ContactResource) {
       $scope.contacts = ContactResource.all().query();
+
+      $scope.currentPage = 0;
+      $scope.pageSize = 10;
+
+      $scope.numberOfPages=function(){
+        return Math.ceil($scope.contacts.length/$scope.pageSize);
+      }
+
   });
 
   app.controller('singleCtrl',

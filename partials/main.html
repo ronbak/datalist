@@ -1,12 +1,65 @@
-<table class="table table-bordered">
-  <thead>
-    <th>Firstname <input type="search" class="pull-right"></th>
-  </thead>
-  <tbody>
-    <tr ng-repeat="contact in contacts">
-      <td>
-        <a ng-href="/{{ contact.firstname }}">{{ contact.firstname }}</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <form>
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="text" class="form-control" placeholder="Search da base" ng-model="search">
+      </div>
+    </form>
+  </div>
+
+  <div class="panel-body">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Lastname
+          </th>
+          <th>
+            Email
+          </th>
+          <th colspan="2">Mobile</tj>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="contact in contacts | startFrom:currentPage*pageSize | limitTo:pageSize | filter:search">
+          <td>
+            {{ contact.firstname }}
+          </td>
+          <td>
+            {{ contact.lastname }}
+          </td>
+          <td>
+            {{ contact['Email Address'] }}
+          </td>
+          <td>
+            {{ contact.Mobile }}
+          </td>
+          <td class="text-right">
+            <a class="btn btn-warning"
+               ng-href="/{{ contact.firstname }}"><i class="fa fa-binoculars"></i></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel-footer">
+    <button class="btn btn-info" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">
+      &larr;
+    </button>
+
+    <button class="btn btn-info" ng-disabled="currentPage >= contacts.length/pageSize - 1" ng-click="currentPage=currentPage+1">
+       &rarr;
+    </button>
+
+    <div class="help-block pull-right">
+      {{currentPage+1}}/{{numberOfPages()}}
+    </div>
+  </div>
+</div>

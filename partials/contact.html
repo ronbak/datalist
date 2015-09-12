@@ -1,8 +1,26 @@
-<h3>Single User</h3>
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h4>User details</h4>
+  </div>
 
-<table class="table table-bordered">
-  <tr ng-repeat="singleuser in singlecontact">
-    <td>{{ singleuser }}</td>
-  </tr>
-</table>
-<a ng-href="/">Back to the list</a>
+  <div class="panel-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            Details
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="singleuser in singlecontact">
+          <td>{{ singleuser }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel-footer">
+    <a class="btn btn-info" ng-href="/">&larr; Back to the list</a>
+  </div>
+</div>
