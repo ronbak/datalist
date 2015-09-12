@@ -2,20 +2,16 @@
 
   var app = angular.module('test');
 
-  app.controller('listCtrl', ['$scope', 'contacts', '$location', function($scope, contacts, $location) {
+  app.controller('contactsCtrl', function($scope, $routeParams, ContactResource) {
 
-    this.all().then(function(data) {
-         $scope.contacts = data;
-         console.log(data);
-     });
+    $scope.contacts = ContactResource.all().query();
 
-  }]);
+  });
 
-  app.controller('userCtrl', ['$scope', '$routeParams', function($scope, $routeParams, users) {
-    // users.byFirstName($routeParam.firstname)
-    //   .then(function(result) {
-    //     $scope.user = result;
-    //   });
-  }]);
+  app.controller('singleCtrl', function($scope, $routeParams, ContactResource) {
+
+    $scope.singlecontact = ContactResource.single().query({firstname: $routeParams.firstname});
+
+  });
 
 }());

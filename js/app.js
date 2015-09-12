@@ -1,20 +1,19 @@
 (function() {
 
-  var app = angular.module('test', ["ngRoute"]);
+  var app = angular.module('test', ['ngRoute', 'ngResource']);
 
   app.config(function($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);
 
     $routeProvider
-        .when("/contacts", {
+        .when("/", {
           templateUrl: "partials/main.html",
-          controller: "listCtrl"
+          controller: "contactsCtrl"
         })
-        .when("/edit/:firstname", {
-          templateUrl: "contact.html",
-          controller: "listCtrl"
+        .when("/:firstname", {
+          templateUrl: "/partials/contact.html",
+          controller: "singleCtrl"
         })
         .otherwise({redirectTo:"/"});
-
   });
 }());
