@@ -2,11 +2,16 @@
 
   var app = angular.module('test');
 
-  app.controller('contactsCtrl', function($scope, Contacts) {
+  app.controller('contactsCtrl', function($scope, $routeParams, ContactResource) {
 
-    Contacts.all().then(function(data) {
-      $scope.contacts = data.data;
-    });
+    $scope.contacts = ContactResource.all().query();
+
+  });
+
+  app.controller('singleCtrl', function($scope, $routeParams, ContactResource) {
+
+    $scope.singlecontact = ContactResource.single().query({firstname: $routeParams.firstname});
+
   });
 
 }());
