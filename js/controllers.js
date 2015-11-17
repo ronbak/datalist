@@ -7,7 +7,7 @@
       $scope.contacts = ContactResource.all().query();
 
       $scope.currentPage = 0;
-      $scope.pageSize = 10;
+      $scope.pageSize = 5;
 
       $scope.numberOfPages=function(){
         return Math.ceil($scope.contacts.length/$scope.pageSize);
