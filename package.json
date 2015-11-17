@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "angular": "^1.4.5",
+    "angular-route": "*",
+    "angular-resource": "*",
+    "angular-ui-bootstrap": "*",
     "bootstrap": "*",
     "express": "^4.13.3",
     "papaparse": "^4.1.2"
