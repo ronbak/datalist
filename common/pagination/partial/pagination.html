@@ -1,0 +1,16 @@
+<button class="btn btn-info"
+        ng-disabled="currentPage == 0"
+        ng-click="currentPage=currentPage-1">
+  &larr;
+</button>
+
+<button class="btn btn-info"
+        ng-disabled="currentPage >= contacts.length/pageSize - 1"
+        ng-click="currentPage=currentPage+1">
+   &rarr;
+</button>
+
+<div class="help-block pull-right">
+  {{currentPage+1}}/{{numberOfPages()}}
+</div>
+</div>

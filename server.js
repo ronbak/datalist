@@ -54,8 +54,6 @@ contactRouter.route('/contacts/:firstname')
       //Using the get funtcion to get the user by firstname
       var user = getUser(users,'firstname', req.params.firstname);
 
-      console.log(user);
-
       if(user != null) {
         res.send(user);
       }

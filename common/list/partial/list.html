@@ -1,0 +1,30 @@
+<tr ng-repeat="contact in contacts | startFrom:currentPage*pageSize | limitTo:pageSize | filter:search">
+  <td>
+    {{ contact.firstname }}
+  </td>
+  <td>
+    {{ contact.lastname }}
+  </td>
+  <td>
+    {{ contact['Email Address'] }}
+  </td>
+  <td>
+    {{ contact.Mobile }}
+  </td>
+  <td class="text-right">
+    <a class="btn btn-info"
+       ng-href="/{{ contact.firstname }}">
+      <i class="fa fa-eye"></i>
+    </a>
+
+    <a class="btn btn-warning"
+       ng-href="#">
+      <i class="fa fa-pencil"></i>
+    </a>
+
+    <a class="btn btn-danger"
+       ng-href="#">
+      <i class="fa fa-trash"></i>
+    </a>
+  </td>
+</tr>
