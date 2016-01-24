@@ -15,27 +15,27 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/unit/**/*Spec.js',
+      'node_modules/angular/angular.js',
+      'js/*.js',
+      'common/**/*.js',
       'common/**/test/*Spec.js'
     ],
 
-
-    // list of files to exclude
     exclude: [
+      'node_modules'
     ],
-
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'js/*.js': 'coverage',
       'common/**/*.js': 'coverage',
-      'test/unit/**/*.js': 'coverage'
     },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['coverage', 'progress'],
+    reporters: ['progress', 'coverage'],
 
 
     // web server port

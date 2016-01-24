@@ -1,8 +1,7 @@
-var app = angular.module('test');
-
 app.controller('singleCtrl',
   function($scope, $routeParams, ContactResource) {
+    // Get single contact
     $scope.singlecontact = ContactResource.single()
-          .query({firstname: $routeParams.firstname});
-
+          .get({firstname: $routeParams.firstname});
+    console.log($scope.singlecontact);
 });

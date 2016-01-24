@@ -1,10 +1,23 @@
 <form>
-  <div class="input-group">
-    <div class="input-group-addon">
-      <i class="fa fa-search"></i>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="text"
+               class="form-control"
+               placeholder="Search da base" ng-model="search">
+      </div>
     </div>
-    <input type="text"
-           class="form-control"
-           placeholder="Search da base" ng-model="search">
+    
+    <div class="col-md-4">
+      <button class="btn btn-success"
+              ng-click="startEditing()"
+              ng-href="/{{ contact.firstname }}">
+        <i class="fa fa-pencil"></i>
+        Create Contact
+      </button>
+    </div>
   </div>
 </form>
